@@ -18,7 +18,7 @@ def won?(board)
         else
           false
         end
-
+  end
 end
 
 def full?(board)
