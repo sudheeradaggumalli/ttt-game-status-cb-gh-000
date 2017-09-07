@@ -22,3 +22,6 @@ def won(board)
         end
   end
 end
+
+def full(board)
+  board.all{|value| if value=="X" || value=="O"}
