@@ -44,5 +44,11 @@ def over?(board)
     false
   end
 end
-  
-  
+
+def winner(board)
+  if won?(board)
+    win=won?board
+    return board[win[0]]
+  else
+    false
+    
