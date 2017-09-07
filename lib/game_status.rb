@@ -12,10 +12,8 @@ def won?(board)
         win_pos2=win[1]
         win_pos3=win[2]
         if board[win_pos1]=="X" && board[win_pos2]=="X" && board[win_pos3]=="X"
-          puts "X won"
           return win
         elsif board[win_pos1]=="O" && board[win_pos2]=="O" && board[win_pos3]=="O"
-          puts "O won"
           return win
         else
           false
