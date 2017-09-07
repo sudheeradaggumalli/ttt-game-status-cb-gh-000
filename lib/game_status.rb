@@ -7,8 +7,8 @@ end
 WIN_COMBINATIONS=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[6,4,2]]
 
 def won?(board)
-  #WIN_COMBINATIONS.each do |win|
- WIN_COMBINATIONS.all? do |win|
+  WIN_COMBINATIONS.each do |win|
+ #WIN_COMBINATIONS.all? do |win|
         win_pos1=win[0]
         win_pos2=win[1]
         win_pos3=win[2]
