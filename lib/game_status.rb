@@ -35,5 +35,6 @@ def draw?(board)
   elsif won?(board)
     false
   end
+end
   
   
